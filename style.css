@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* header css start */
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.container{
+    background-color: #e4f9f5; 
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    padding: 20px;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.contact-details{
+    float: right;
+    padding: 30px;
+}
+.contact-details p a {
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+}
+.contact-details p a:hover{
+    text-decoration: underline;
+    color: tomato;
+    transition: all 0.1s ease;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: 0;
+}
+/*-----------------
+ header css end 
+ -----------------*/
+
+
+/* ----------------
+personal information section start 
+------------------*/
+.personal-information{
+    padding: 30px;
+}
+.content{
+    margin-bottom: 30px;
+}
+.personal-title{
+    width: 30%;
+    float: left;
+}
+.personal-description{
+    width: 70%;
+    float: left;
+}
+/* ----------------
+personal information section end 
+------------------*/
+
+
+/* ----------------
+common hr start 
+------------------*/
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* ----------------
+common hr end 
+------------------*/
+
+
+/* ----------------
+education start 
+------------------*/
+#edu{
+    margin-bottom: 30px;
+}
+
+.hsc-part{
+    width: 45%;
+    float: left;
+}
+
+.ma-part{
+    width: 45%;
+    float: right;
+}
+/* ----------------
+education end 
+------------------*/
+.footer-menu{
+    background-color: black;
+}
+.footer-menu ul{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu ul li{
+    padding: 10px;
+    list-style: none;
+
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.right{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
